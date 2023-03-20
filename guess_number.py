@@ -8,17 +8,20 @@
 import random
 number = random.randint(1, 10)
 tries = 0
-while tries <3:
+flag = 0
+while tries < 3:
     guess = int(input("Enter the number between 1 to 10 :"))
     tries += 1
     if guess == number:
          print("Congrats you Guessed in" , tries, "tries .")
+         flag = number
          break
     elif guess < number:
       print("You Guessed too low , Try Again .")
     else:
       print("You Guessed too high , Try Again.")
-if tries == 3:
+      
+if tries == 3 and flag != number:
     print("You didn't guess the number . The number was " , number)
     
     
