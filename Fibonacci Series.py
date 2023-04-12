@@ -2,8 +2,8 @@ a, b = 0, 1
 for i in range(10):
     print(a)
     a, b = b, a+b
-print("---------------------------")
-print("---------------------------")
+print("--------------------------")
+print("--------------------------")
 n = int(input("Enter the number of terms you want in the Fibonacci series: "))
 
 # Initializing the first two terms
