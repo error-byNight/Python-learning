@@ -5,4 +5,5 @@ for num in num_list:
     avg = sum / len(num_list)
 
 print("Sum :", sum)
+
 print("Average :",avg)
