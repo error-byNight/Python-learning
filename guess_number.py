@@ -1,6 +1,6 @@
 ##Write a Python program that generates a random number between 1 and 10
 ##and asks the user to guess the number.
-##The program should give the user up to three chances to guess the number
+##The program should give the user up to three chances to guess the number,
 ##and should provide feedback on whether the guess is too high or too low.
 ##If the user guesses the correct number within three tries,
 ##the program should print a message congratulating the user.
