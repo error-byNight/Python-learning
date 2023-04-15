@@ -21,3 +21,4 @@ What would you like to do? ''')
 
 # Call the first location function to start the game
 castle_gates()
+
